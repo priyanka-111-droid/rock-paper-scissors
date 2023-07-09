@@ -8,4 +8,4 @@ Practise Javascript functions, DOM manipulation and event handling , git branchi
 Also used - 
 CSS grids
 
-Live preview - 
+Live preview - [Rock-paper-scissors website](https://priyanka-111-droid.github.io/rock-paper-scissors/)
