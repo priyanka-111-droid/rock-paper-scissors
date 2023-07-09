@@ -4,13 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rock,paper,scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
 </head>
 <body>
-    <button id="rock">rock</button>
-    <button id="paper">paper</button>
-    <button id="scissors">scissors</button>
-
+    <h1 class="main-heading"> Welcome to the game of rock,paper,scissors!!</h1>
+    <h2 class="sub-heading">Pick a weapon of choice.First person to reach score of 5 wins</h2>
+    <div id="scores">
+        <div id="user-heading">User</div>
+        <div id="computer-heading">Computer</div>
+        <div id="user">0</div>
+        <div id="computer">0</div>
+    </div>
+    <div id="buttons">
+        <button id="rock">
+            <span>rock</span></button>
+        <button id="paper"><span>paper</span></button>
+        <button id="scissors"><span>scissors</span></button>
+    </div>
     <div id="result"></div>
     <script src="script.js"></script>
 </body>
